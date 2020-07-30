@@ -46,6 +46,9 @@ export const exemple = () => (
 
 PR are welcome!
 
+### Release process
+Change the version number in `package.json` then push a commit with name "Release x.x.x" where x.x.x is the same version number as in `package.json`.
+
 ## Licensing
 
 This project is licensed under the [MIT License](./LICENSE.txt).
