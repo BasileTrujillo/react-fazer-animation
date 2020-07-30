@@ -1,7 +1,7 @@
 {
   "name": "react-fazer-animation",
   "version": "1.0.0",
-  "description": "React portage of the fazer animation \"redirect loader\"",
+  "description": "React/Typescript portage of the codepen animation \"redirecting loader\"",
   "license": "MIT",
   "main": "dist/index.js",
   "unpkg": "dist/index.umd.js",
@@ -18,7 +18,7 @@
     "ui",
     "react",
     "library",
-    "design system"
+    "loader"
   ],
   "dependencies": {
     "@material-ui/styles": "^4.10.0",

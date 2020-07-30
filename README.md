@@ -32,7 +32,7 @@ export const exemple = () => (
 );
 ```
 
-### Props
+## Props
 
 | Prop | Type | Definition |
 | --- | --- | --- |
@@ -40,3 +40,14 @@ export const exemple = () => (
 | bodyColor | string | The color of the body. |
 | longfazersColor | object | The color of the long fazers. |
 
+---
+
+## Contributing
+
+PR are welcome!
+
+## Licensing
+
+This project is licensed under the [MIT License](./LICENSE.txt).
+
+All files located in the node_modules and external directories are externally maintained libraries used by this software which have their own licenses; we recommend you read them, as their terms may differ from the terms in the MIT License.
