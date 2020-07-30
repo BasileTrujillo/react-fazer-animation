@@ -6,7 +6,7 @@ This animation is a Typescript / React portage of the codepen [Redirecting Loade
 
 ## Demo
 
-You can find a storybook with an exemple at: coming soon...
+You can find a storybook with an exemple at: [https://basiletrujillo.github.io/react-fazer-animation/](https://basiletrujillo.github.io/react-fazer-animation/)
 
 ## Installation
 
