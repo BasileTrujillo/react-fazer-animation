@@ -1,0 +1,55 @@
+{
+  "name": "react-fazer-animation",
+  "version": "1.0.0",
+  "description": "React portage of the fazer animation \"redirect loader\"",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "unpkg": "dist/index.umd.js",
+  "module": "dist/index.module.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "microbundle watch --jsx React.createElement",
+    "build": "microbundle --jsx React.createElement -f es,cjs",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook:build": "build-storybook"
+  },
+  "keywords": [
+    "ui",
+    "react",
+    "library",
+    "design system"
+  ],
+  "dependencies": {
+    "@material-ui/styles": "^4.10.0",
+    "clsx": "^1.1.1",
+    "react-scripts": "^3.4.1",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@storybook/addon-a11y": "^5.3.19",
+    "@storybook/addon-backgrounds": "^5.3.19",
+    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/addon-info": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^5.3.19",
+    "@testing-library/dom": "^7.21.5",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/user-event": "^12.0.15",
+    "@types/jest": "^26.0.7",
+    "@types/react": "^16.9.43",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.5.0",
+    "jest": "^26.1.0",
+    "microbundle": "^0.12.3",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.4"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  }
+}
