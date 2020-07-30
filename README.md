@@ -1,5 +1,7 @@
 # React Fazer Animation
 
+[![npm version](https://badge.fury.io/js/react-fazer-animation.svg)](https://badge.fury.io/js/react-fazer-animation)
+
 This animation is a Typescript / React portage of the codepen [Redirecting Loader](https://codepen.io/mr_alien/pen/FDLjg) made by [@mr_alien](https://codepen.io/mr_alien).
 
 ![Preview](screenshot.png "Preview")
