@@ -1,6 +1,6 @@
 {
   "name": "react-fazer-animation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React/Typescript portage of the codepen animation \"redirecting loader\"",
   "license": "MIT",
   "main": "dist/index.js",
