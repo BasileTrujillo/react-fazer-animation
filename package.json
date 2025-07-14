@@ -22,9 +22,9 @@
     "loader"
   ],
   "dependencies": {
-    "@material-ui/styles": "^4.10.0",
+    "@material-ui/styles": "^4.11.5",
     "clsx": "^1.1.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.0",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
